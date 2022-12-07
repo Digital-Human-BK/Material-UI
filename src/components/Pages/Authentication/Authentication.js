@@ -23,12 +23,15 @@ const Authentication = () => {
   };
 
   return (
-    <Grid item xs='8'>
+    <Grid item xs={8}>
       This is Grid
       <CommonButton size='large' variant='contained' sx={buttonStyles}>
         Add User
       </CommonButton>
       <CommonButton variant='outlined' sx={buttonStyles}>
+        Web Setup
+      </CommonButton>
+      <CommonButton variant='contained' color='primary'>
         Web Setup
       </CommonButton>
     </Grid>
