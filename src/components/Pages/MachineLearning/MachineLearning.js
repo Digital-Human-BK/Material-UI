@@ -2,7 +2,7 @@ import { Grid } from '@mui/material';
 
 const MachineLearning = () => {
   return (
-    <Grid item xs='8'>
+    <Grid item xs={8}>
       This is Grid
     </Grid>
   );
